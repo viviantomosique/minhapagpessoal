@@ -6,43 +6,74 @@
     <title>Minha Página Pessoal</title>
 </head>
 <body>
-
-    <!-- 1. Cabeçalho (Header) -->
+    <!-- 1-Cabeçalho -->
     <header>
         <h1> VÍVIAN TOMOSIQUE </h1>    
         <h1>Bem-vindo(a) à minha página pessoal</h1>
         <p>Conheça um pouco mais sobre mim, meus interesses, estudos e trajetória.</p>
     </header>
-
-    <!-- 4. Seção de Navegação -->
+    <!-- 2-Navegação -->
     <nav>
         <ul>
-            <li><a href="https://github.com/viviantomosique" target="_blank">Meu GitHub</a></li>
+            <p>Visite meu <a href="https://www.linkedin.com/viviantomosique" target="_blank">Perfil no Linkedin</a>.</p>   
         </ul>
     </nav>
-
+    
     <main>
-        <!-- 2. Seção de Apresentação -->
+        <!-- 3-Apresentação -->
         <section id="sobre">
             <h2>Sobre Mim</h2>
             <p>Olá! Me chamo Vívian e tenho interesse por tecnologia, educação e artes. Estou sempre em busca de aprender novas ferramentas, desenvolver projetos criativos na web e explorar novas formas de ensinar e criar.</p>
         </section>
 
-        <!-- 3. Seção de Hobbies ou Interesses -->
+        <!-- 4-Hobbies ou Interesses -->
         <section id="hobbies">
             <h2>Hobbies e Interesses</h2>
             <ul>
                 <li>TI</li>
-                <li>Artes, música e educação</li>
-                <li>Criação de projetos artesanais e crochê</li>
+                <li>Artes e música</li>
+                <li>Artesanato e crochê</li>
             </ul>
         </section>
+        
+        <!-- 5- Sessão Entre em contato -->
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <form action=# method="post">
+            <fieldset>
+                <legend>Envie sua mensagem</legend>
+                
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                <div>
+                    
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                <div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                    
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+                </fieldset>
+            </form>
+        </section>     
     </main>
-
-    <!-- 5. Rodapé (Footer) -->
+    <!-- 6-Rodapé -->
     <footer>
         <p> 2026 - Desenvolvido por Vívian Tomosique.</p>
-        <p>Visite meu <a href="https://github.com/viviantomosique" target="_blank">Perfil no GitHub</a>.</p>
+        <a href="https://github.com/viviantomosique" target="_blank">Meu GitHub</a>
     </footer>
 
 </body>
