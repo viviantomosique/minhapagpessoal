@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     color: #4a4556;
     margin: 20px;
-    line-height: 1.6;
 }
 
 header {
@@ -36,7 +35,6 @@ input, textarea {
     margin-bottom: 10px;
     display: block;
     border: 1px solid #d8cfe6;
-    box-sizing: border-box;
 }
 
 button {
@@ -60,20 +58,6 @@ footer {
     border-radius: 50%; 
     object-fit: cover;  
     display: block;
-    margin: 0 auto 15px auto;
+    margin-bottom: 15px;
     border: 2px solid #b59438;
-}
-
-@media (max-width: 600px) {
-    body {
-        margin: 10px;
-    }
-
-    header, section {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
 }
