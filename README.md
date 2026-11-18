@@ -1,5 +1,5 @@
 # Minha primeira página Web
-Nome: Seu nome
+VÍVIAN TOMOSIQUE
 ## Sobre a atividade
 Esta é minha primeira página desenvolvida na disciplina
 Programação Web.
